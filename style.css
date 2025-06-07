@@ -1,6 +1,6 @@
 /* Header aqui:*/
 header{
-    background-color: rgb(75, 93, 237);
+    background-color: #253342;
     color: whitesmoke;
     text-align: center;
     font-size: 3rem;
@@ -19,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #34278a;
+    background-color: #253342;
     padding: 10px 20px;
 }
 
@@ -84,19 +84,18 @@ a {
 /* Para o Aside: */
 
     .botao-whatsapp {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
         background-color: #25D366; /* Cor oficial do WhatsApp */
         color: white;
         padding: 10px 15px;
-        border-radius: 5px;
+        border-radius: 30px;
         text-decoration: none;
         font-weight: bold;
         font-family: Arial, sans-serif;
         transition: background-color 0.3s ease;
-      }
-      
-      .botao-whatsapp i {
-        margin-right: 3px;
       }
       
       .botao-whatsapp:hover , .botao-instagram:hover , .botao-github:hover , .botao-linkedin:hover  {
@@ -104,65 +103,73 @@ a {
       }
       
       .botao-instagram {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
         background-color: #ec167a; /* Cor oficial do WhatsApp */
         color: white;
         padding: 10px 15px;
-        border-radius: 5px;
+        border-radius: 30px;
         text-decoration: none;
         font-weight: bold;
         font-family: Arial, sans-serif;
         transition: background-color 0.3s ease;
+        margin: 8px auto;
       }
       
-      .botao-instagram i {
-        margin-right: 8px;
-      }
-     
       .botao-github {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
         background-color: #373737; /* Cor oficial do WhatsApp */
         color: white;
         padding: 10px 15px;
-        border-radius: 5px;
+        border-radius: 30px;
         text-decoration: none;
         font-weight: bold;
         font-family: Arial, sans-serif;
         transition: background-color 0.3s ease;
+        margin-top: 20px ;
       }
     
-      .botao-github i {
-        margin-right: 8px;
-      }
-      
       .botao-linkedin {
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
         background-color: #150f87; /* Cor oficial do WhatsApp */
         color: white;
         padding: 10px 15px;
-        border-radius: 5px;
+        border-radius: 30px;
         text-decoration: none;
         font-weight: bold;
         font-family: Arial, sans-serif;
         transition: background-color 0.3s ease;
+        margin: 8px auto;
       }  
 
-      .botao-linkedin i {
-        margin-right: 8px;
-      }
+      
     
     .minha_foto{
         width: 150px;
         height: 150px;
         object-fit: cover;
         border-radius: 50%;
-        border: 2px solid #373737;
+        border: 2px solid #fff7f7;
+        margin-left: 140px;
     }
 
     .fundo_aside{
-        background-color: #9baccf;
+        background-color: #232226;
         padding:20px;
         border-radius: 8px;
         width: 450px;
         margin: 20px;
+    }
+
+    h2 , h4{
+      text-align: center;
+      color: #fff7f7
     }
